@@ -7,15 +7,20 @@ class ProjectsController < ApplicationController
     @project = Project.find(params[:id])
   end
 
-  def new; end
+  def new
+    @project = Project.new
+  end
 
   def edit; end
 
   def create
     @project = Project.new(project_params)
 
-    @project.save
+    if @project.save
     redirect_to @project
+    else
+      render 'new'
+    end
   end
 
   def update; end
