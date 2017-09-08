@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="gettasksdone.sqlite" uuid="7ad6264c-1d48-4210-b881-d22dd9d22d6b">
+    <data-source source="LOCAL" name="gettasksdone.sqlite" uuid="c08ccd2b-0d58-4e1b-8f76-11f619323423">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
@@ -10,11 +10,9 @@
         <property name="enable_load_extension" value="true" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="Rails gettasksdone: development" uuid="41fbcaa6-13cf-4531-a15a-b8d17902363b">
+    <data-source source="LOCAL" name="development.sqlite3" uuid="2f7f581a-bfc8-4fdb-a066-899d8574e3d6">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
       <driver-properties>
